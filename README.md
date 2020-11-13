@@ -102,7 +102,7 @@
   - ViewData Controller üzerinden View tarafına veri çekmek için kullanılır.
   - SAdece geçerli istek sırasında okunabilir.
   - Yönlendirme sonrasında kendini imha eder,null değer alır.
-  - Veriyi değişkene almak için tip dönüşümü yapmanız gerekir.
+  - Veriyi değişkene almak için __**```tip dönüşümü yapmanız gerekir.```**__
   
 - ViewBag
   - c# 4.0 ile gelen dinamik veri tipi özelliklerden faydalanır.
@@ -110,7 +110,7 @@
   - ViewBag ControllerBase sınıfının bir özelliğidir.
   - Sadece geçerli istek sırasında okunabilir.
   - Yönlendirme sonrasında kendini imha eder,null değer alır.
-  - Veriyi değişkene almak için tip dönüşümü yapmanız gerekmez.
+  - Veriyi değişkene almak için __**```tip dönüşümü yapmanız gerekmez.```**__
   
 - TempData
   - TempDataDictionary sınıfından türetilen kısa ömürleri sessionda depolanan bir dictionary nesnesidir.
